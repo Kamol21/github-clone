@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './repo.css'
 import { useEffect } from 'react';
-import Api from '../../api/Api';
+import Api from '../../../api/Api';
 
 const repo = () => {
    const [repos, setrepos] = useState([]);

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './overview.css'
 import { useEffect } from 'react';
-import Api from '../../api/Api';
+import Api from '../../../api/Api';
 
 const overview = () => {
    const [overviews, setOverviews] = useState([]);

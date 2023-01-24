@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './nav2.css'
-import Api from '../../api/Api'
+import Api from '../../../api/Api'
 import { Link } from 'react-router-dom';
 
 
@@ -15,7 +15,7 @@ const nav2 = () => {
          <div className='nav2-box'>
             <ul className='nav2-list list-unstyled'>
                <li>
-                  <Link className='nav2-links' to="/">
+                  <Link className='nav2-links' to="-1">
                      Overview
                   </Link>
                </li>
