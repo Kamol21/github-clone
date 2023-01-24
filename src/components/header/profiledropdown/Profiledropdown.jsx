@@ -1,14 +1,13 @@
 import React from 'react';
 import './ProfileDropdown.css';
 import { useState } from 'react';
+import StatusModal from './statusModal/StatusModal';
+
+
 
 const Maindropdown = () => {
    const [drop, setDrop] = useState('d-none');
-
-
    
-
-
 
    return (
       <div className='profil-drop-box'>
@@ -16,6 +15,9 @@ const Maindropdown = () => {
          <ul className={`${drop} profil-drop-list`}>
             <li className='profil-first-li'>
                <a className='profil-first-link' href="http://127.0.0.1:5173/">Signed in as Kamol21</a>
+            </li>
+            <li className='w-100'>
+               <StatusModal />
             </li>
             <li>
                <a className='profil-drop-links' href="https://github.com/new">

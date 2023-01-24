@@ -22,6 +22,7 @@
     width: 180px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     position: absolute;
     top: 290%;
     right: 0;

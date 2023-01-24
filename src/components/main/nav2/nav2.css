@@ -1,0 +1,30 @@
+.nav2-box {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+.nav2-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.nav2-links {
+    font-size: 16px;
+    line-height: 1.8px;
+    text-decoration: none;
+    margin: 0 20px;
+    color: black;
+    flex-shrink: 0;
+}
+
+.repo-count {
+    margin-left: 4px;
+    padding: 10px 5px;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 238);
+}

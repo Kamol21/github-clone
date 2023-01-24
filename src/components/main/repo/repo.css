@@ -1,0 +1,34 @@
+.main-repo-box {
+    width: 70%;
+    margin-left: auto;
+    padding: 40px 0;
+}
+
+.repo-li {
+    width: 95%;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.repo-name {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.repo-visibility {
+    height: 100%;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    flex-shrink: 0;
+    padding: 0 8px;
+    border: 1px solid darkgray;
+    border-radius: 13px;
+}
+
+.repo-lang {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    flex-shrink: 0;
+}

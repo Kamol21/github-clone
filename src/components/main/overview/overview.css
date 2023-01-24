@@ -1,0 +1,51 @@
+.main-overview-box {
+    width: 70%;
+    margin-left: auto;
+    padding: 40px 0;
+}
+
+.main-overview-info {
+    font-size: 18px;
+    line-height: 1.8px;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    flex-shrink: 0;
+}
+
+.main-span-text {
+    font-size: 14px;
+    line-height: 1.8px;
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+    flex-shrink: 0;
+}
+
+.overview-li {
+    width: 48%;
+    border: 1px solid darkgray;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.overview-name {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.overview-visibility {
+    height: 100%;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    flex-shrink: 0;
+    padding: 0 8px;
+    border: 1px solid darkgray;
+    border-radius: 13px;
+}
+
+.overview-lang {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    flex-shrink: 0;
+}
