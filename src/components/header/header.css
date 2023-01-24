@@ -1,0 +1,19 @@
+header {
+    background-color: #24292f;
+    color: white;
+}
+
+.head-dropdowns-box {
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-notification-btn {
+    width: 15px;
+    height: 15px;
+    background-image: url("../../assets/notification-bell-svgrepo-com.svg");
+    background-size: cover;
+    content: "";
+}

@@ -1,0 +1,40 @@
+.add-dropdown-btn {
+    display: flex;
+    justify-content: center;
+    width: 8px;
+    height: 8px;
+    background-image: url("../../../assets/down.svg");
+    transform: rotate(-0.25turn);
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+.add-drop-box {
+    position: relative;
+}
+
+.add-drop-list {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 290%;
+    right: 0;
+    z-index: 100;
+    padding-left: 0;
+    list-style: none;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.add-drop-links {
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-size: 14px;
+}

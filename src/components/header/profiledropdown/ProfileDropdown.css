@@ -1,0 +1,74 @@
+.profil-dropdown-btn {
+    display: flex;
+    justify-content: center;
+    width: 8px;
+    height: 8px;
+    background-image: url("../../../assets/down.svg");
+    transform: rotate(-0.25turn);
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+.profil-drop-box {
+    position: relative;
+    margin-left: 20px;
+}
+
+.profil-drop-list {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 290%;
+    right: 0;
+    z-index: 100;
+    padding: 23px;
+    list-style: none;
+    border: 1px solid lightgrey;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.profil-first-li {
+    border-bottom: 1px solid rgb(99, 99, 99);
+}
+
+.profil-first-link {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-size: 14px
+}
+
+.profil-set-status {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0 ;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid rgb(99, 99, 99);
+    font-size: 14px
+}
+
+.profil-set-status::before {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px  ;
+    background-image: url("../../../assets/smile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+.profil-drop-links {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-size: 14px;
+}

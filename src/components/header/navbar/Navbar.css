@@ -1,0 +1,23 @@
+nav {
+    width: 40%;
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav-links {
+    font-size: 14px;
+    line-height: 1.5px;
+    text-decoration: none;
+    color: white;
+    flex-shrink: 0;
+}
