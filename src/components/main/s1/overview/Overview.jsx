@@ -9,10 +9,8 @@ const overview = () => {
       Api.GetAllPosts().then((res) => res.json()).then((data) => setOverviews(data));
    }, [])
 
-   console.log(overviews);
-
    return (
-      <div className='container-xxl'>
+      <div className=''>
          <div className="main-overview-box">
          <div className='w-100 d-flex justify-content-between'>
             <h5 className='main-overview-info'>
@@ -24,7 +22,7 @@ const overview = () => {
             {overviews.length > 0 ? overviews.map((overview) => {
                return <li className='overview-li mb-3'>
                   <div className='d-flex justify-content-between mb-4'>
-                     <a href={overview.html_url} className='overview-name'>{overview.name}</a>
+                     <a href={overview.html_url} className='overview-name fw-bold'>{overview.name}</a>
                      <span className='overview-visibility d-inline-block'>{overview.visibility}</span>
                   </div>
                   <span className='overview-lang'>{overview.language}</span>

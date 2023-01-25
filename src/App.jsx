@@ -1,5 +1,6 @@
 import Header from "./components/header/Header";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import Nav2 from './components/main/s1/nav2/Nav2';
 import Footer from "./components/footer/Footer";
 import Repo from "./components/main/s1/repo/Repo"

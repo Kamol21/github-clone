@@ -9,7 +9,7 @@ import Profiledropdown from './profiledropdown/Profiledropdown';
 const Header = () => {
     return (
         <header>
-            <div className="container-xxl py-3 px-4 d-flex align-items-center">
+            <div className="container-xxl py-1 px-4 d-flex align-items-center">
                 <a href="https://github.com/" target="_blank">
                     <img src={githubIcon} alt="github icon" />
                 </a>

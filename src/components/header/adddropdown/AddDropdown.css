@@ -1,8 +1,19 @@
 .add-dropdown-btn {
     display: flex;
+    align-items: center;
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+
+.add-dropdown-btn::after {
+    display: flex;
     justify-content: center;
     width: 8px;
     height: 8px;
+    margin-left: 5px;
     background-image: url("../../../assets/down.svg");
     transform: rotate(-0.25turn);
     background-size: contain;
@@ -14,17 +25,13 @@
     font-size: 30px;
 }
 
-.add-drop-box {
-    position: relative;
-}
-
 .add-drop-list {
     width: 180px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    top: 290%;
+    top: 100%;
     right: 0;
     z-index: 100;
     padding-left: 0;

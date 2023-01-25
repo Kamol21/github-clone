@@ -8,7 +8,6 @@ const StatusModal = () => {
       setModal('d-none');
       setCause('');
    }
-   console.log(cause);
 
    return (
       <div className='head-modal'>

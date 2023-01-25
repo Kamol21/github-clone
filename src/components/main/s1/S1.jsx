@@ -10,13 +10,13 @@ const s1 = () => {
     return (
         <section>
             <Nav2 />
-            <hr />
-            <div className='d-flex'>
-            <Acc />
-            <Routes>
-                <Route path="/" element={<Overview />} />
-                <Route path="/repos" element={<Repo />} />
-            </Routes>
+            <hr className='mt-0' />
+            <div className='d-flex container-xxl'>
+                <Acc />
+                <Routes>
+                    <Route path="/" element={<Overview />} />
+                    <Route path="/repos" element={<Repo />} />
+                </Routes>
             </div>
         </section>
     );

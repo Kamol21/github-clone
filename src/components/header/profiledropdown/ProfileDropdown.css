@@ -1,6 +1,4 @@
-.profil-dropdown-btn {
-    display: flex;
-    justify-content: center;
+.profil-dropdown-btn::after {
     width: 8px;
     height: 8px;
     background-image: url("../../../assets/down.svg");
@@ -8,31 +6,48 @@
     background-size: contain;
     background-repeat: no-repeat;
     content: "";
+    margin-left: 5px;
+}
+
+.profil-dropdown-btn {
+    display: flex;
+    align-items: center;
     color: white;
     border: none;
     background-color: transparent;
     font-size: 30px;
 }
 
-.profil-drop-box {
-    position: relative;
-    margin-left: 20px;
+.profil-dropdown-btn-img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
 }
 
-.profil-drop-list {
+.profil-lists-box {
     width: 250px;
+    position: absolute;
+    top: 100%;
+    right: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    position: absolute;
-    top: 290%;
-    right: 0;
     z-index: 100;
-    padding: 23px;
-    list-style: none;
+    padding: 20px;
     border: 1px solid lightgrey;
     background-color: #fff;
     border-radius: 8px;
+}
+
+.profil-drop-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    list-style: noen;
 }
 
 .profil-first-li {

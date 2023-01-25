@@ -11,6 +11,7 @@ header {
 }
 
 .head-dropdowns-box {
+    position: relative;
     width: 9%;
     display: flex;
     justify-content: space-between;
@@ -20,7 +21,7 @@ header {
 .head-notification-btn {
     width: 15px;
     height: 15px;
-    background-image: url("../../assets/notification-bell-svgrepo-com.svg");
+    background-image: url("../../assets/bell.svg");
     background-size: cover;
     content: "";
 }
